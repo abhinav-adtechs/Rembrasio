@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:id="@+id/imgButton"
+        android:background="@drawable/yellow_circle"
+        android:src="@drawable/ic_exposure_plus_1_white_24dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:id="@+id/imgButtonnext"
+        android:onClick="onClick"
+        android:src="@drawable/ic_indeterminate_check_box_white_24dp"
+        android:background="@drawable/yellow_circle"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        />
+
+</FrameLayout>
